@@ -1,0 +1,18 @@
+<p>demopipe works!</p>
+
+<div>
+    {{title | uppercase}}
+    <br>
+    {{today | date : 'fullDate'}}
+    <br>
+    {{today | date:'MMM' | uppercase}}
+    <br>
+    {{user.name}}
+    <br>
+    {{user.salary | currency :'INR'}}
+    <br>
+    {{user.dob}}
+    <br>
+    {{user.name| customer : user.name}}
+    
+</div>

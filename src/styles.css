@@ -1,0 +1,41 @@
+/* You can add global styles to this file, and also import other style files */
+
+@import url("../node_modules/bootstrap/dist/css/bootstrap.min.css");
+
+
+.contain{
+    float: left;
+    width:30%;
+    margin-left: 50px;
+}
+.kore1{
+    height: 600px;
+    width:300px;
+    overflow: hidden;
+    background-color: whitesmoke;
+   
+}
+
+.image{
+   width: 200px;
+   height: 200px;
+   border-radius: 20cm;
+   overflow: hidden;
+   
+  
+}
+.images{
+    float:right;
+    margin:20px -24px 0px 0px;
+    overflow: hidden;
+  
+   
+}
+
+.content{
+    float: left;
+}
+
+.button{
+    align-items: center;
+}
